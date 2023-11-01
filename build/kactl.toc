@@ -54,34 +54,23 @@
 \contentsline {subsection}{\numberline {6.3.5}Bell numbers}{11}{subsection.6.3.5}%
 \contentsline {subsection}{\numberline {6.3.6}Labeled unrooted trees}{11}{subsection.6.3.6}%
 \contentsline {subsection}{\numberline {6.3.7}Catalan numbers}{11}{subsection.6.3.7}%
-\contentsline {chapter}{\numberline {7}Graph}{11}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Fundamentals}{11}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Network flow}{11}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Matching}{12}{section.7.3}%
-\contentsline {section}{\numberline {7.4}DFS algorithms}{13}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Coloring}{14}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Heuristics}{14}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Trees}{15}{section.7.7}%
-\contentsline {section}{\numberline {7.8}Math}{16}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}Number of Spanning Trees}{16}{subsection.7.8.1}%
-\contentsline {subsection}{\numberline {7.8.2}Erdős–Gallai theorem}{16}{subsection.7.8.2}%
-\contentsline {chapter}{\numberline {8}Geometry}{16}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Geometric primitives}{17}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Circles}{18}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Polygons}{18}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Misc. Point Set Problems}{19}{section.8.4}%
-\contentsline {section}{\numberline {8.5}3D}{20}{section.8.5}%
-\contentsline {chapter}{\numberline {9}Strings}{20}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Various}{22}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Intervals}{22}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Misc. algorithms}{22}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Dynamic programming}{23}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Debugging tricks}{23}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Optimization tricks}{23}{section.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}Bit hacks}{23}{subsection.10.5.1}%
-\contentsline {subsection}{\numberline {10.5.2}Pragmas}{23}{subsection.10.5.2}%
-\contentsline {chapter}{\numberline {11}Our Snippets}{24}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Md. Arik Rayhan}{24}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Ohiduzaman Pranto}{25}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Kawsar Ali Pramanik}{25}{section.11.3}%
+\contentsline {chapter}{\numberline {7}Geometry}{11}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Geometric primitives}{11}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Circles}{12}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Polygons}{12}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Misc. Point Set Problems}{13}{section.7.4}%
+\contentsline {section}{\numberline {7.5}3D}{14}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Strings}{15}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Various}{16}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Intervals}{16}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Misc. algorithms}{17}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Dynamic programming}{17}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Debugging tricks}{17}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Optimization tricks}{17}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Bit hacks}{17}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Pragmas}{17}{subsection.9.5.2}%
+\contentsline {chapter}{\numberline {10}Our Snippets}{18}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{18}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Ohiduzaman Pranto}{19}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Kawsar Ali Pramanik}{19}{section.10.3}%
 \contentsfinish 
