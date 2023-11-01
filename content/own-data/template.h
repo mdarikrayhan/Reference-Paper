@@ -100,7 +100,7 @@ bool isPowerof(long long num, long long base)
 }
 
 const int MAXN = 1000005;
-//10^6 in 265 ms 41764 KB
+// 10^6 in 265 ms 41764 KB
 int spf[MAXN];
 vector<int> factor[MAXN];
 inline vector<int> getFactorization(int x)
@@ -141,14 +141,20 @@ void sievefactor()
     }
 }
 
-const int pmxsz = 100000000;//10^8 in 400ms and 35MB
+const int pmxsz = 100000000; // 10^8 in 400ms and 35MB
 int status[(pmxsz / 32) + 2];
-int prime[5761455 + 5],noofprime = 0;
+int prime[5761455 + 5], noofprime = 0;
 inline bool Bit_Check(int N, int pos) { return (bool)(N & (1 << pos)); }
 inline int Bit_Set(int N, int pos) { return N = N | (1 << pos); }
-inline bool PrimeCheck(int i) { return 1^(bool)(Bit_Check(status[i >> 5], i & 31)); }
+inline bool PrimeCheck(int i) { return 1 ^ (bool)(Bit_Check(status[i >> 5], i & 31)); }
 inline void PrimeSet(int i) { status[i >> 5] = Bit_Set(status[i >> 5], i & 31); }
-inline void Mark(int i,int N){ for (int j = i * i; j <= N; j += (i << 1)){PrimeSet(j);} }
+inline void Mark(int i, int N)
+{
+    for (int j = i * i; j <= N; j += (i << 1))
+    {
+        PrimeSet(j);
+    }
+}
 void sieve(int N)
 {
     int i, j, sqrtN;
@@ -157,11 +163,11 @@ void sieve(int N)
     {
         if (PrimeCheck(i))
         {
-            Mark(i,N);
+            Mark(i, N);
         }
-        if (PrimeCheck(i+2))
+        if (PrimeCheck(i + 2))
         {
-            Mark(i+2,N);
+            Mark(i + 2, N);
         }
     }
     prime[noofprime++] = 2;
@@ -179,10 +185,49 @@ void sieve(int N)
     }
 }
 
+int countSubstring(const string& s, const string& target) {
+    int C = 0;
+    string::size_type pos = 0;
+    while ((pos = s.find(target, pos)) != string::npos)
+    {
+        ++C;
+        pos += target.length();
+    }
+    return C;
+}
+
+int modpow(int x, int n, int m)
+{
+    if (n == 0)
+        return 1 % m;
+    long long u = modpow(x, n / 2, m);
+    u = (u * u) % m;
+    if (n % 2 == 1)
+        u = (u * x) % m;
+    return u;
+}
+
+int gcd(int a, int b) {
+if (b == 0) return a;
+return gcd(b, a%b); }
+
+// short int negative : -32768
+// short int positive : 32767
+// unsigned short int : 65535
+// int negatvie : -2147483648
+// int positive : 2147483647
+// unsigned int : 4294967295
+// long int negative : -2147483648
+// long int positive : 2147483647
+// unsigned long int : 4294967295
+// long long int negative : -9223372036854775807 
+// long long int positive : 9223372036854775807 
+// unsigned long long int : 18446744073709551615
+
 int main()
 {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);                    
+    cin.tie(NULL);
     cout.tie(NULL);
     return 0;
 }
