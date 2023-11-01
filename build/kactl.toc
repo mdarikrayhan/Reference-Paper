@@ -80,4 +80,6 @@
 \contentsline {section}{\numberline {10.5}Optimization tricks}{23}{section.10.5}%
 \contentsline {subsection}{\numberline {10.5.1}Bit hacks}{23}{subsection.10.5.1}%
 \contentsline {subsection}{\numberline {10.5.2}Pragmas}{23}{subsection.10.5.2}%
+\contentsline {chapter}{\numberline {11}Our Snippets}{24}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Arik's Snippets}{24}{section.11.1}%
 \contentsfinish 

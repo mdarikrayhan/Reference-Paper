@@ -234,6 +234,11 @@
 \contentsline {subsection}{\texttt {SmallPtr.h}\hspace {0.2em}}{23}{lstnumber.10.11.8}%
 \contentsline {subsection}{\texttt {BumpAllocatorSTL.h}\hspace {0.2em}}{23}{lstnumber.10.12.10}%
 \contentsline {subsection}{\texttt {SIMD.h}\hspace {0.2em}}{23}{lstnumber.10.13.14}%
+\contentsline {chapter}{\numberline {11}Our Snippets}{24}{chapter.11}%
 \ttl@stoptoc {chapters@10}
 \ttl@starttoc {chapters@11}
+\contentsline {section}{\numberline {11.1}Arik's Snippets}{24}{section.11.1}%
+\contentsline {subsection}{\texttt {template.h}\hspace {0.2em}}{24}{section.11.1}%
+\ttl@stoptoc {chapters@11}
+\ttl@starttoc {chapters@12}
 \contentsfinish 
