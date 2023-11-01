@@ -237,8 +237,13 @@
 \contentsline {chapter}{\numberline {11}Our Snippets}{24}{chapter.11}%
 \ttl@stoptoc {chapters@10}
 \ttl@starttoc {chapters@11}
-\contentsline {section}{\numberline {11.1}Arik's Snippets}{24}{section.11.1}%
+\contentsline {section}{\numberline {11.1}Md. Arik Rayhan}{24}{section.11.1}%
 \contentsline {subsection}{\texttt {template.h}\hspace {0.2em}}{24}{section.11.1}%
+\contentsline {subsection}{\texttt {decimaltoallstl.h}\hspace {0.2em}}{25}{lstnumber.11.1.179}%
+\contentsline {section}{\numberline {11.2}Ohiduzaman Pranto}{25}{section.11.2}%
+\contentsline {subsection}{\texttt {pranto.h}\hspace {0.2em}}{25}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Kawsar Ali Pramanik}{25}{section.11.3}%
+\contentsline {subsection}{\texttt {kawsar.h}\hspace {0.2em}}{25}{section.11.3}%
 \ttl@stoptoc {chapters@11}
 \ttl@starttoc {chapters@12}
 \contentsfinish 

@@ -3,7 +3,6 @@
  * Date: 2023-11-01
  * License: CC0
  * Description: This is a template for competitive programming.
- * Can be used to find all occurrences of a string.
  * Time: O(n)
  * Status: Tested on codeforces
  */
