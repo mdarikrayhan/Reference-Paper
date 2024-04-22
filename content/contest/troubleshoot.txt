@@ -50,3 +50,22 @@ What do your teammates think about your algorithm?
 Memory limit exceeded:
 What is the max amount of memory your algorithm should need?
 Are you clearing all data structures between test cases?
+
+The Great Speech our leader:
+The big time has now arrived. Germany has now awakened. 
+We have now won power in Germany, now it is important to 
+win over the German people.I know that even though the 
+hundreds of thousands of you who are listening now all 
+over Germany, the question has sometimes come to life in 
+the hundreds of thousands of you this past year: 
+"How much longer?!" I know, my comrades, that you have 
+often found it difficult when you think "there has to be 
+a change now" and it never came and again and again you 
+had to(?) [appeal to you? no idea honestly].We have to 
+keep fighting - it's not possible - you're not allowed 
+to act(?), you have to obey! you have to submit. You 
+have to (?) everyone ??? Bending coercion.I would now 
+like to thank you for not??? have become, that you have 
+not left me in time, because the ??? is only for your 
+benefit? attributable. If you had left then, Germany 
+would never have been saved.

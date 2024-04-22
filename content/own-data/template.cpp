@@ -153,6 +153,38 @@ bool MillerRabin(ull n)
     return true;
 }
 
+// String Hashing
+long long compute_hash(string const& s) {
+    const int p = 31;
+    const int m = 1e9 + 9;
+    long long hash_value = 0;
+    long long p_pow = 1;
+    for (char c : s) {
+        hash_value = (hash_value + (c - 'a' + 1) * p_pow) % m;
+        p_pow = (p_pow * p) % m;
+    }
+    return hash_value;
+}
+
+//Trinary Search
+double f(double x) {
+    //return some value
+}
+double ternary_search(double l, double r) {
+    double eps = 1e-9;              //set the error limit here
+    while (r - l > eps) {
+        double m1 = l + (r - l) / 3;
+        double m2 = r - (r - l) / 3;
+        double f1 = f(m1);      //evaluates the function at m1
+        double f2 = f(m2);      //evaluates the function at m2
+        if (f1 < f2)
+            l = m1;
+        else
+            r = m2;
+    }
+    return f(l);                    //return the maximum of f(x) in [l, r]
+}
+
 // SPF using Sieve 10^6 in 280ms & 42MB
 const int MAXN = 10e6 + 5;
 int spf[MAXN];
@@ -206,22 +238,39 @@ bool isPowerof(ll num, ll base) { return (num > 0 && num % base == 0) ? isPowero
 bool isPowerofTwo(ll num) { return (num > 0 && (num & (num - 1)) == 0) ? true : false; }
 int isSubstring(string main, string sub) { return main.find(sub) != string::npos ? main.find(sub) : -1; }
 
+struct custom_hash {
+    static uint64_t splitmix64(uint64_t x) {
+        x += 0x9e3779b97f4a7c15;
+        x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
+        x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
+        return x ^ (x >> 31);
+    }
+    size_t operator()(uint64_t x) const {
+        static
+        const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
+        return splitmix64(x + FIXED_RANDOM);
+    }
+};
+
 template <class T>
 bool ckmin(T &a, const T &b) { return b < a ? a = b, 1 : 0; }
 template <class T>
 bool ckmax(T &a, const T &b) { return a < b ? a = b, 1 : 0; }
+
 template <typename T>
 using ordered_set = tree<T, null_type, less<T>,
                          rb_tree_tag, tree_order_statistics_node_update>;
+// *(o_set.find_by_order(val), o_set.order_of_key(val) 
 
 int32_t main()
 {
-
-#ifdef ONLINEJUDGE
-    clock_t tStart = clock();
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
+    /*
+    #ifdef ONLINEJUDGE
+        clock_t tStart = clock();
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
+    #endif
+    */
 
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -230,6 +279,7 @@ int32_t main()
     cin >> NoOfTestCase;
     for (int testcaseno = 1; testcaseno <= NoOfTestCase; testcaseno++)
     {
+        
     }
     return 0;
 }
