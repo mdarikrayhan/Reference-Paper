@@ -7,6 +7,42 @@
  * Status: Tested on codeforces
  */
 
+// FASTIO
+import sys
+ONLINE_JUDGE = __debug__
+if ONLINE_JUDGE:
+    import io,os
+    input = io.BytesIO(os.read(0,os.fstat(0).st_size)).readline
+
+// binary to demical
+x = '1000'
+y = int(x, 2)
+print(y)
+// decimal to binary
+n = 100
+binary = format(n, 'b')
+print(binary)
+
+// 2D array
+rows, cols = (5, 5)
+arr = [[0]*cols]*rows
+matrix = []
+print("Enter the entries rowwise:")
+R, C = map(int, input().split())
+# matrix = [[int(input()) for x in range (C)] for y in range(R)]
+matrix = []
+for i in range(R):
+    array = list(map(int, input().split()))
+    matrix.append(array)
+# For printing the matrix
+for i in range(R):
+    for j in range(C):
+        print(matrix[i][j], end = " ")
+    print()
+// sorting
+array.sort()
+array.sort(reverse=True)
+
 a, b, c = map(int, input().split())
 array = list(map(int, input().split()))
 array = []

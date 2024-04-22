@@ -17,7 +17,6 @@
 //  (A & 1) is 1 if A is odd, else 0
 //	A & (A-1) is 0 if A is a power of 2 (except when A = 0)
 
-
 Left shift (a<<b = a*2^b)
 Right shift (a>>b = a/2^b)
 Bitwise AND (a&b)

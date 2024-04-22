@@ -260,7 +260,12 @@ bool ckmax(T &a, const T &b) { return a < b ? a = b, 1 : 0; }
 template <typename T>
 using ordered_set = tree<T, null_type, less<T>,
                          rb_tree_tag, tree_order_statistics_node_update>;
-// *(o_set.find_by_order(val), o_set.order_of_key(val) 
+// *(o_set.find_by_order(val), o_set.order_of_key(val)
+
+// cout<<"2^15 =                     32,768\n2^16 =                     65,536"<<endl;
+// cout<<"2^31 =              2,147,483,648\n2^32 =              4,294,967,296"<<endl;
+// cout<<"2^63 =  9,223,372,036,854,775,808 \n2^64 = 18,446,744,073,709,551,616"<<endl;
+
 
 int32_t main()
 {
