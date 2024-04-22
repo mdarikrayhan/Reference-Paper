@@ -1,16 +1,3 @@
-/**
- * Author: Md. Arik Rayhan
- * Date: 2023-11-01
- * License: CC0
- * Description: This is a template for competitive programming.
- * Time: O(n)
- * Status: Tested on codeforces
- */
-/***************************************************/
-/*            Author : Md. Arik Rayhan             */
-/*        Github : github.com/mdarikrayhan         */
-/***************************************************/
-
 #pragma GCC optimization("O3")
 #pragma GCC optimization("unroll-loops")
 
@@ -229,6 +216,13 @@ using ordered_set = tree<T, null_type, less<T>,
 
 int32_t main()
 {
+
+#ifdef ONLINEJUDGE
+    clock_t tStart = clock();
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
@@ -236,7 +230,6 @@ int32_t main()
     cin >> NoOfTestCase;
     for (int testcaseno = 1; testcaseno <= NoOfTestCase; testcaseno++)
     {
-        
     }
     return 0;
 }

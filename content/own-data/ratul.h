@@ -33,12 +33,12 @@ struct custom_hash {
     }
 };
 // ordered set
-#include<ext/pb_ds/tree_policy.hpp>
-#include<ext/pb_ds/assoc_container.hpp>
-using namespace __gnu_pbds;
-template <typename T> using ordered_set = tree<T, null_type, less<T>,
-rb_tree_tag,  tree_order_statistics_node_update>;
-*(o_set.find_by_order(val), o_set.order_of_key(val) 
+// #include<ext/pb_ds/tree_policy.hpp>
+// #include<ext/pb_ds/assoc_container.hpp>
+// using namespace __gnu_pbds;
+// template <typename T> using ordered_set = tree<T, null_type, less<T>,
+// rb_tree_tag,  tree_order_statistics_node_update>;
+// *(o_set.find_by_order(val), o_set.order_of_key(val) 
 
 // check_if_string_is_a_subseq
     string a, b;
@@ -223,3 +223,35 @@ string a, b;
         j--;
     }
     reverse(ans.begin(), ans.end());
+
+    // ## deBUG
+
+// divisible by 0
+// array bound
+// constraints
+// pre calculation
+// generate max and min cases 
+// check TLE
+// check overflow
+// anything uninitialized 
+// vector might fail
+// check consecutive case
+// check output format whitespace
+// Check all cases provided in problem
+// Check for overflow (long long case)
+// TLE:
+// Check constraint
+// how many times are you using loop? or nested loop?
+// If it is a math problem and you are getting TLE then loop won't work. Check for a equation
+// Runtime error:
+// Check if you are doing division by zero
+// array out of bound (al)
+// Check if you are running loop outside your array limit or string limit
+// Wrong Answer:
+// Check for constraint. Are you thinking for the highest & lowest constraint?
+// Does it need long long?
+// Any corner case you are not thinking?
+// Facing overflow? check if needs long long
+// Garbage? Any uninitialized varible you are using?
+// Which case you are skipping ? don't skip check that
+// // life is  hard? think with python
