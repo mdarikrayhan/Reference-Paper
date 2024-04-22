@@ -115,3 +115,147 @@ int count_set_bits(int n)
      return cont;
 }
 
+
+(max of max) or (min of min) is BINARY SEARCH you dumb STUPID fuck
+
+find the position of something on a string 
+a = find(s.begin(), s.end() , '3') - s.begin() ;// we are finding the position of 3 in this case
+
+//Vector
+vector<int> v(n); // we take a array of vector with fixed length
+cin>>v[i];
+v.sort(v.begin(), v.end());
+v.begin() is inclusive (eta soho sort hobe)
+And v.end() is exclusive (eta sara sort hobe)
+always point the position after the last position of the vector -> 1,2,3,4[v.end()] 
+cout<< (int)v.size() << nl; //v.size() e typecasting must
+
+max element of a vector
+*max_element(v.begin(), v.end())
+removing a element (x) from vector 
+v.erase(find(v.bigin() , v.end () , x))
+
+//map<pair<int,int>,string > m ;
+cin can be done like this -> m[{x,y}]=s;
+        int x , y ; cin>> x >> y ;
+        pair<int , int> xx ;
+        xx= make_pair(x,y);
+        auto it= m.find(xx);
+        if(it!=m.end())
+        {
+            cout<< (*it).second << nl;
+        }
+
+In map 
+cost += m[x]; // it will work but its not a good practice
+because if x dosent exists then there will be a extra value named x inserted into the map
+size will increase.
+if( m.find(x) != m.end() ) // Good practice
+{ cost += m[x]; }
+
+//Stringstream
+string s;
+  getline(cin, s);
+  stringstream ss;
+  ss << s;
+  string word;
+  while (ss >> word) {
+    cout << word << '\n';}
+ 
+//find anything on a string
+(find(s.begin() , s.end() , ' ') != s.end())
+        {
+            
+        }
+
+//check if all the char of the string is same
+if (unique(s.begin(), s.end()) == s.begin() + 1 )
+    {
+        cout << " all are same bro "<< nl;
+    }
+
+//input string after int
+problem first string dosent input in 
+cin.ignore();
+getline(cin,s);
+
+//string to int
+int x = stoi(s); //string to int
+ll x = stoll(s) ; //string to long long
+
+//substring 
+s= "pranto" ; //indexing starts with 0 as usual 
+ans = s.substr(1,3); starts taking substring from 1 and takes 3 char from there
+ans = "ran"
+s.substr(1); starts taking substring from and 1 to the end 
+ans = "ranto"
+
+
+// Print the number of times the character 'e' appears in the string.
+  cout << std::count(str.begin(), str.end(), ch) << endl;
+
+
+
+/*Rearranges the elements in the range [first,last) in
+  to the next lexicographically greater permutation.  */
+void print(int a[], int n);
+int main()
+{
+  int myints[] = {1, 4, 3}, n = 3;
+
+  sort(myints, myints + n);
+  /*sort to see all the combinations of lower to higher
+  dont sort if you want to see only the next higher permutation*/
+
+  cout << "The n! possible permutations with 3 elements:\n";
+  /*first it will print the original array then
+    it will print the next higher permutation  */
+  do
+  {
+    print(myints, n);
+  } while (next_permutation(myints, myints + n));
+
+  cout << "After loop: ";
+  print(myints, n); // sorted array asending order
+
+  return 0;
+}
+
+void print(int a[], int n)
+{
+  for (int i = 0; i < n; i++)
+    cout << a[i] << " ";
+  cout << endl;
+}
+
+/*Rearranges the elements in the range [first,last) in
+  to the next lexicographically lower permutation.  */
+void print(int a[], int n);
+int main()
+{
+  int myints[] = {1, 4, 3}, n = 3;
+
+  sort(myints, myints + n, greater<int>());
+  /*sort to see all the combinations of higher to lower
+  dont sort if you want to see only the next lower permutation*/
+
+  cout << "The n! possible permutations with 3 elements:\n";
+  /*first it will print the original array then
+    it will print the next lower permutation  */
+  do
+  {
+    print(myints, n);
+  } while (prev_permutation(myints, myints + n));
+
+  cout << "After loop: ";
+  print(myints, n); // sorted array descending order
+
+  return 0;
+}
+
+void print(int a[], int n)
+{
+  for (int i = 0; i < n; i++)
+    cout << a[i] << " ";
+  cout << endl;
+}
