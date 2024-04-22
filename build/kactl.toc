@@ -71,6 +71,6 @@
 \contentsline {subsection}{\numberline {9.5.2}Pragmas}{17}{subsection.9.5.2}%
 \contentsline {chapter}{\numberline {10}Our Snippets}{18}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{18}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Ohiduzaman Pranto}{19}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Kawsar Ali Pramanik}{19}{section.10.3}%
+\contentsline {section}{\numberline {10.2}Ratul Hasan}{19}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Kawsar Ali Pramanik}{21}{section.10.3}%
 \contentsfinish 

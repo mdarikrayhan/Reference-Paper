@@ -6,11 +6,26 @@
  * Time: O(n)
  * Status: Tested on codeforces
  */
+/***************************************************/
+/*            Author : Md. Arik Rayhan             */
+/*        Github : github.com/mdarikrayhan         */
+/***************************************************/
+
+#pragma GCC optimization("O3")
+#pragma GCC optimization("unroll-loops")
+
 #include <bits/stdc++.h>
+#include <ext/pb_ds/tree_policy.hpp>
+#include <ext/pb_ds/assoc_container.hpp>
+
+using namespace __gnu_pbds;
 using namespace std;
+
 const char nl = '\n';
 
 typedef long long ll;
+typedef unsigned long long ull;
+typedef __uint128_t u128;
 typedef long double ld;
 typedef complex<ld> cd;
 
@@ -25,20 +40,21 @@ typedef vector<pi> vpi;
 typedef vector<pl> vpl;
 typedef vector<cd> vcd;
 
-#define gcd(a, b) __gcd(a, b)
-#define lcm(a, b) (a * (b / gcd(a, b)))
-unsigned long long int rangesum(long long int L, long long int R) { return ((L + R) * (abs(R - L) + 1)) / 2; }
-#define start_time                            \
-    using std::chrono::duration;              \
-    using std::chrono::duration_cast;         \
-    using std::chrono::high_resolution_clock; \
-    using std::chrono::milliseconds;          \
-    auto t1111 = high_resolution_clock::now();
-#define end_time                                            \
-    auto t2222 = high_resolution_clock::now();              \
-    duration<double, std::milli> ms_double = t2222 - t1111; \
-    std::cout << ms_double.count() << 'm' << 's' << nl;
-#define sz(x) (int)(x).size()
+typedef map<int, int> mii;
+typedef map<ll, ll> mll;
+typedef map<ll, ll, greater<ll>> mllg;
+typedef map<char, int> mci;
+typedef map<string, int> msi;
+
+typedef unordered_map<int, int> umii;
+typedef unordered_map<ll, ll> umll;
+typedef unordered_map<char, int> umci;
+typedef unordered_map<string, int> umsi;
+
+#define YES cout << "YES" << nl;
+#define NO cout << "NO" << nl;
+
+#define ins insert
 #define mp make_pair
 #define pb push_back
 #define ff first
@@ -46,61 +62,112 @@ unsigned long long int rangesum(long long int L, long long int R) { return ((L +
 #define lb lower_bound
 #define ub upper_bound
 #define all(x) x.begin(), x.end()
-#define ins insert
+#define rall(x) x.rbegin(), x.rend()
+#define sz(x) (int)(x).size()
 
-bool isPrime(int n)
+#define rep(i, a, b) for (int i = a; i < (b); i++)
+#define per(i, a, b) for (int i = (b)-1; i >= a; i--)
+#define gcd(a, b) __gcd(a, b)
+#define lcm(a, b) (a * (b / gcd(a, b)))
+
+#define deb(x) cout << #x << "=" << x << endl
+#define deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
+#define deb3(x, y, z) cout << #x << "=" << x << "," << #y << "=" << y << "," << #z << "=" << z << endl
+#define deb4(a, b, c, d) cout << #a << "=" << a << "," << #b << "=" << b << "," << #c << "=" << c << "," << #d << "=" << d << endl
+
+// Bitwise Sieve
+const int pmxsz = 100000000;
+int status[(pmxsz / 32) + 2];
+int prime[5761455 + 5], noofprime = 0;
+inline bool Bit_Check(int N, int pos) { return (bool)(N & (1 << pos)); }
+inline int Bit_Set(int N, int pos) { return N = N | (1 << pos); }
+inline bool PrimeCheck(int i) { return 1 ^ (bool)(Bit_Check(status[i >> 5], i & 31)); }
+inline void PrimeSet(int i) { status[i >> 5] = Bit_Set(status[i >> 5], i & 31); }
+inline void Mark(int i, int N)
 {
-    if (n == 2 || n == 3)
+    for (int j = i * i; j <= N; j += (i << 1))
+        PrimeSet(j);
+}
+void sieve(int N = 100000000)
+{
+    int i, j, sqrtN;
+    sqrtN = int(sqrt(N));
+    for (i = 5; i <= sqrtN; i += 6)
     {
-        return true;
-    }
-    if (n <= 1 || n % 2 == 0 || n % 3 == 0)
-    {
-        return false;
-    }
-    for (int i = 5; i * i <= n; i += 6)
-    {
-        if (n % i == 0 || n % (i + 2) == 0)
+        if (PrimeCheck(i))
         {
-            return false;
+            Mark(i, N);
         }
+        if (PrimeCheck(i + 2))
+        {
+            Mark(i + 2, N);
+        }
+    }
+    prime[noofprime++] = 2;
+    prime[noofprime++] = 3;
+    for (i = 5; i <= N; i += 6)
+    {
+        if (PrimeCheck(i))
+        {
+            prime[noofprime++] = i;
+        }
+        if (PrimeCheck(i + 2))
+        {
+            prime[noofprime++] = i + 2;
+        }
+    }
+}
+
+// Single Prime Check using Miller Rabin
+ull binpower(ull base, ull e, ull mod)
+{
+    ull result = 1;
+    base %= mod;
+    while (e)
+    {
+        if (e & 1)
+            result = (u128)result * base % mod;
+        base = (u128)base * base % mod;
+        e >>= 1;
+    }
+    return result;
+}
+bool check_composite(ull n, ull a, ull d, int s)
+{
+    ull x = binpower(a, d, n);
+    if (x == 1 || x == n - 1)
+        return false;
+    for (int r = 1; r < s; r++)
+    {
+        x = (u128)x * x % n;
+        if (x == n - 1)
+            return false;
+    }
+    return true;
+};
+bool MillerRabin(ull n)
+{
+    if (n < 2)
+        return false;
+    int r = 0;
+    ull d = n - 1;
+    while ((d & 1) == 0)
+    {
+        d >>= 1;
+        r++;
+    }
+    for (int a : {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37})
+    {
+        if (n == a)
+            return true;
+        if (check_composite(n, a, d, r))
+            return false;
     }
     return true;
 }
 
-bool isPalindrome(string S)
-{
-    string P = S;
-    reverse(P.begin(), P.end());
-    if (S == P)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-}
-
-bool isPowerof(long long num, long long base)
-{
-    if (num <= 0)
-    {
-        return false;
-    }
-    if (num % base == 0)
-    {
-        return isPowerof(num / base, base);
-    }
-    if (num == 1)
-    {
-        return true;
-    }
-    return false;
-}
-
-const int MAXN = 1000005;
-// 10^6 in 265 ms 41764 KB
+// SPF using Sieve 10^6 in 280ms & 42MB
+const int MAXN = 10e6 + 5;
 int spf[MAXN];
 vector<int> factor[MAXN];
 inline vector<int> getFactorization(int x)
@@ -141,93 +208,35 @@ void sievefactor()
     }
 }
 
-const int pmxsz = 100000000; // 10^8 in 400ms and 35MB
-int status[(pmxsz / 32) + 2];
-int prime[5761455 + 5], noofprime = 0;
-inline bool Bit_Check(int N, int pos) { return (bool)(N & (1 << pos)); }
-inline int Bit_Set(int N, int pos) { return N = N | (1 << pos); }
-inline bool PrimeCheck(int i) { return 1 ^ (bool)(Bit_Check(status[i >> 5], i & 31)); }
-inline void PrimeSet(int i) { status[i >> 5] = Bit_Set(status[i >> 5], i & 31); }
-inline void Mark(int i, int N)
+ull rangesum(ll L, ll R) { return ((L + R) * (abs(R - L) + 1)) / 2; }
+bool isPalindrome(string S)
 {
-    for (int j = i * i; j <= N; j += (i << 1))
-    {
-        PrimeSet(j);
-    }
+    string P = S;
+    reverse(P.begin(), P.end());
+    return S == P ? true : false;
 }
-void sieve(int N)
-{
-    int i, j, sqrtN;
-    sqrtN = int(sqrt(N));
-    for (i = 5; i <= sqrtN; i += 6)
-    {
-        if (PrimeCheck(i))
-        {
-            Mark(i, N);
-        }
-        if (PrimeCheck(i + 2))
-        {
-            Mark(i + 2, N);
-        }
-    }
-    prime[noofprime++] = 2;
-    prime[noofprime++] = 3;
-    for (i = 5; i <= N; i += 6)
-    {
-        if (PrimeCheck(i))
-        {
-            prime[noofprime++] = i;
-        }
-        if (PrimeCheck(i + 2))
-        {
-            prime[noofprime++] = i + 2;
-        }
-    }
-}
+bool isPowerof(ll num, ll base) { return (num > 0 && num % base == 0) ? isPowerof(num / base, base) : num == 1; }
+bool isPowerofTwo(ll num) { return (num > 0 && (num & (num - 1)) == 0) ? true : false; }
+int isSubstring(string main, string sub) { return main.find(sub) != string::npos ? main.find(sub) : -1; }
 
-int countSubstring(const string& s, const string& target) {
-    int C = 0;
-    string::size_type pos = 0;
-    while ((pos = s.find(target, pos)) != string::npos)
-    {
-        ++C;
-        pos += target.length();
-    }
-    return C;
-}
+template <class T>
+bool ckmin(T &a, const T &b) { return b < a ? a = b, 1 : 0; }
+template <class T>
+bool ckmax(T &a, const T &b) { return a < b ? a = b, 1 : 0; }
+template <typename T>
+using ordered_set = tree<T, null_type, less<T>,
+                         rb_tree_tag, tree_order_statistics_node_update>;
 
-int modpow(int x, int n, int m)
-{
-    if (n == 0)
-        return 1 % m;
-    long long u = modpow(x, n / 2, m);
-    u = (u * u) % m;
-    if (n % 2 == 1)
-        u = (u * x) % m;
-    return u;
-}
-
-int gcd(int a, int b) {
-if (b == 0) return a;
-return gcd(b, a%b); }
-
-// short int negative : -32768
-// short int positive : 32767
-// unsigned short int : 65535
-// int negatvie : -2147483648
-// int positive : 2147483647
-// unsigned int : 4294967295
-// long int negative : -2147483648
-// long int positive : 2147483647
-// unsigned long int : 4294967295
-// long long int negative : -9223372036854775807 
-// long long int positive : 9223372036854775807 
-// unsigned long long int : 18446744073709551615
-
-int main()
+int32_t main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
+    int NoOfTestCase = 1;
+    cin >> NoOfTestCase;
+    for (int testcaseno = 1; testcaseno <= NoOfTestCase; testcaseno++)
+    {
+        
+    }
     return 0;
 }

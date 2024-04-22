@@ -198,11 +198,11 @@
 \ttl@starttoc {chapters@10}
 \contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{18}{section.10.1}%
 \contentsline {subsection}{\texttt {template.h}\hspace {0.2em}}{18}{section.10.1}%
-\contentsline {subsection}{\texttt {decimaltoallstl.h}\hspace {0.2em}}{19}{lstnumber.10.1.224}%
-\contentsline {section}{\numberline {10.2}Ohiduzaman Pranto}{19}{section.10.2}%
-\contentsline {subsection}{\texttt {pranto.h}\hspace {0.2em}}{19}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Kawsar Ali Pramanik}{19}{section.10.3}%
-\contentsline {subsection}{\texttt {kawsar.h}\hspace {0.2em}}{19}{section.10.3}%
+\contentsline {subsection}{\texttt {decimaltoallstl.h}\hspace {0.2em}}{19}{lstnumber.10.1.229}%
+\contentsline {section}{\numberline {10.2}Ratul Hasan}{19}{section.10.2}%
+\contentsline {subsection}{\texttt {ratul.h}\hspace {0.2em}}{19}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Kawsar Ali Pramanik}{21}{section.10.3}%
+\contentsline {subsection}{\texttt {kawsar.h}\hspace {0.2em}}{21}{section.10.3}%
 \ttl@stoptoc {chapters@10}
 \ttl@starttoc {chapters@11}
 \contentsfinish 
