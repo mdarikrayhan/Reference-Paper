@@ -121,34 +121,23 @@
 \contentsline {chapter}{\numberline {9}Various}{19}{chapter.9}%
 \ttl@stoptoc {chapters@8}
 \ttl@starttoc {chapters@9}
-\contentsline {section}{\numberline {9.1}Intervals}{19}{section.9.1}%
-\contentsline {subsection}{\texttt {IntervalContainer.h}\hspace {0.2em}}{19}{section.9.1}%
-\contentsline {subsection}{\texttt {IntervalCover.h}\hspace {0.2em}}{19}{lstnumber.9.1.23}%
-\contentsline {subsection}{\texttt {ConstantIntervals.h}\hspace {0.2em}}{20}{lstnumber.9.2.19}%
-\contentsline {section}{\numberline {9.2}Misc. algorithms}{20}{section.9.2}%
-\contentsline {subsection}{\texttt {TernarySearch.h}\hspace {0.2em}}{20}{section.9.2}%
-\contentsline {subsection}{\texttt {LIS.h}\hspace {0.2em}}{20}{lstnumber.9.4.11}%
-\contentsline {subsection}{\texttt {FastKnapsack.h}\hspace {0.2em}}{20}{lstnumber.9.5.17}%
-\contentsline {section}{\numberline {9.3}Dynamic programming}{20}{section.9.3}%
-\contentsline {subsection}{\texttt {KnuthDP.h}\hspace {0.2em}}{20}{section.9.3}%
-\contentsline {subsection}{\texttt {DivideAndConquerDP.h}\hspace {0.2em}}{21}{lstnumber.9.7.1}%
-\contentsline {section}{\numberline {9.4}Debugging tricks}{21}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Optimization tricks}{21}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Bit hacks}{21}{subsection.9.5.1}%
-\contentsline {subsection}{\numberline {9.5.2}Pragmas}{21}{subsection.9.5.2}%
-\contentsline {subsection}{\texttt {FastMod.h}\hspace {0.2em}}{21}{subsection.9.5.2}%
-\contentsline {subsection}{\texttt {FastInput.h}\hspace {0.2em}}{21}{lstnumber.9.9.8}%
-\contentsline {subsection}{\texttt {BumpAllocator.h}\hspace {0.2em}}{21}{lstnumber.9.10.17}%
-\contentsline {subsection}{\texttt {SmallPtr.h}\hspace {0.2em}}{22}{lstnumber.9.11.8}%
-\contentsline {subsection}{\texttt {BumpAllocatorSTL.h}\hspace {0.2em}}{22}{lstnumber.9.12.10}%
-\contentsline {subsection}{\texttt {SIMD.h}\hspace {0.2em}}{22}{lstnumber.9.13.14}%
-\contentsline {chapter}{\numberline {10}Our Snippets}{22}{chapter.10}%
+\contentsline {section}{\numberline {9.1}Misc. algorithms}{19}{section.9.1}%
+\contentsline {subsection}{\texttt {TernarySearch.h}\hspace {0.2em}}{19}{section.9.1}%
+\contentsline {subsection}{\texttt {LIS.h}\hspace {0.2em}}{19}{lstnumber.9.1.11}%
+\contentsline {subsection}{\texttt {FastKnapsack.h}\hspace {0.2em}}{19}{lstnumber.9.2.17}%
+\contentsline {section}{\numberline {9.2}Dynamic programming}{20}{section.9.2}%
+\contentsline {subsection}{\texttt {DivideAndConquerDP.h}\hspace {0.2em}}{20}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Optimization tricks}{20}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Bit hacks}{20}{subsection.9.3.1}%
+\contentsline {subsection}{\texttt {FastMod.h}\hspace {0.2em}}{20}{subsection.9.3.1}%
+\contentsline {subsection}{\texttt {FastInput.h}\hspace {0.2em}}{20}{lstnumber.9.5.8}%
+\contentsline {chapter}{\numberline {10}Our Snippets}{20}{chapter.10}%
 \ttl@stoptoc {chapters@9}
 \ttl@starttoc {chapters@10}
-\contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{22}{section.10.1}%
-\contentsline {subsection}{\texttt {arik.cpp}\hspace {0.2em}}{22}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Ratul Hasan}{24}{section.10.2}%
-\contentsline {subsection}{\texttt {ratul.cpp}\hspace {0.2em}}{24}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Md. Ohiduzaman Pranto}{26}{section.10.3}%
-\contentsline {subsection}{\texttt {pranto.cpp}\hspace {0.2em}}{26}{section.10.3}%
+\contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{20}{section.10.1}%
+\contentsline {subsection}{\texttt {arik.cpp}\hspace {0.2em}}{20}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Ratul Hasan}{22}{section.10.2}%
+\contentsline {subsection}{\texttt {ratul.cpp}\hspace {0.2em}}{22}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Md. Ohiduzaman Pranto}{24}{section.10.3}%
+\contentsline {subsection}{\texttt {pranto.cpp}\hspace {0.2em}}{24}{section.10.3}%
 \contentsfinish 

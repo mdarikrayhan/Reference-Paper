@@ -38,15 +38,12 @@
 \contentsline {section}{\numberline {7.3}Polygons}{16}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Strings}{16}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Various}{19}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Intervals}{19}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Misc. algorithms}{20}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Dynamic programming}{20}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Debugging tricks}{21}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Optimization tricks}{21}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Bit hacks}{21}{subsection.9.5.1}%
-\contentsline {subsection}{\numberline {9.5.2}Pragmas}{21}{subsection.9.5.2}%
-\contentsline {chapter}{\numberline {10}Our Snippets}{22}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{22}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Ratul Hasan}{24}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Md. Ohiduzaman Pranto}{26}{section.10.3}%
+\contentsline {section}{\numberline {9.1}Misc. algorithms}{19}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Dynamic programming}{20}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Optimization tricks}{20}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Bit hacks}{20}{subsection.9.3.1}%
+\contentsline {chapter}{\numberline {10}Our Snippets}{20}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{20}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Ratul Hasan}{22}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Md. Ohiduzaman Pranto}{24}{section.10.3}%
 \contentsfinish 
