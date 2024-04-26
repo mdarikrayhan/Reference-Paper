@@ -63,11 +63,11 @@
 \contentsline {chapter}{\numberline {8}Strings}{26}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Various}{29}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Intervals}{29}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Misc. algorithms}{29}{section.9.2}%
+\contentsline {section}{\numberline {9.2}Misc. algorithms}{30}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Dynamic programming}{30}{section.9.3}%
 \contentsline {section}{\numberline {9.4}Debugging tricks}{30}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Optimization tricks}{30}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Bit hacks}{30}{subsection.9.5.1}%
+\contentsline {section}{\numberline {9.5}Optimization tricks}{31}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Bit hacks}{31}{subsection.9.5.1}%
 \contentsline {subsection}{\numberline {9.5.2}Pragmas}{31}{subsection.9.5.2}%
 \contentsline {chapter}{\numberline {10}Our Snippets}{32}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Md. Arik Rayhan}{32}{section.10.1}%

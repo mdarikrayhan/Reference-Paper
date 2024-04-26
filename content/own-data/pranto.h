@@ -17,6 +17,16 @@
 //  (A & 1) is 1 if A is odd, else 0
 //	A & (A-1) is 0 if A is a power of 2 (except when A = 0)
 
+// a ^ a = 0
+// a ^ 0 = a
+// a ^ b = 0 ==> a = b
+// a ^ b = b ^ a
+// (a ^ b) ^ c = a ^ (b ^ c)
+// a ^ b ^ a = (a ^a) ^ b = 0 ^ b = b
+// a ^ a ^..... ^ a = 0 (even number of a's)
+// a ^ a ^..... ^ a = a (odd number of a's)
+// a ^ b = c ==> a = b ^ c ==> a ^ b ^ c = 0
+
 Left shift (a<<b = a*2^b)
 Right shift (a>>b = a/2^b)
 Bitwise AND (a&b)
@@ -221,16 +231,8 @@ int main()
   return 0;
 }
 
-void print(int a[], int n)
-{
-  for (int i = 0; i < n; i++)
-    cout << a[i] << " ";
-  cout << endl;
-}
-
 /*Rearranges the elements in the range [first,last) in
   to the next lexicographically lower permutation.  */
-void print(int a[], int n);
 int main()
 {
   int myints[] = {1, 4, 3}, n = 3;
@@ -248,14 +250,51 @@ int main()
   } while (prev_permutation(myints, myints + n));
 
   cout << "After loop: ";
-  print(myints, n); // sorted array descending order
 
   return 0;
 }
 
-void print(int a[], int n)
-{
-  for (int i = 0; i < n; i++)
-    cout << a[i] << " ";
-  cout << endl;
+
+Legendres formula
+n! is multiplication of {1, 2, 3, 4,....n}.
+How many numbers in {1, 2, 3, 4, .....n} are divisible by p? 
+Every pth number is divisible by p in {1, 2, 3, 4, ...... n}. Therefore in n!, there are [n/p] numbers divisible by p. So we know that the value of x (largest power of p that divides n!) is at-least [n/p]. 
+Can x be larger than [n/p] ? 
+Yes, there may be numbers which are divisible by p2, p3, .....
+How many numbers in {1, 2, 3, 4, ...... n} are divisible by p^2, p^3,...? 
+There are [n/(p2)] numbers divisible by p2 (Every p2th number would be divisible). Similarly, there are [n/(p3)] numbers divisible by p3 and so on.
+What is the largest possible value of x? 
+So the largest possible power is [n/p] + [n/(p^2)] + [n/(p^3)] +.....
+int Legendres formula(long long n, long long p) {
+  int ans = 0;
+  while (n) {
+    ans += n / p; // now many times we can devide this by n , n^2 , n^3 how many times we can devide this like it
+    n /= p;
+  }
+  return ans;
 }
+#num of digits
+num_of_digit = floor(log10(n))+ 1 ; // 10 base
+Big gcd
+gcd(a,b) == gcd(a%b , b ) ; 
+log(a*b) = log(a) + log(b)
+
+I need in c++  logb(x)
+but c++ only have log2 and log 10
+ logb(x) = log2(x) / log2(b) ;
+
+n^m prime factor
+prime factor of n = 2^3 * 3^5 * 5^9
+prime factor of n^m = 2^(3*m) * 3^(5*m) * 5^(9*m)
+
+In some range some numbers are both divisible by x and y
+Only divisible by x and y is (n/x) - n/(lcm(x,y))
+
+partial_sum(a, a + 5, b, myfun); prefix sum can be calculated by this
+
+how to clean the nodes used in graph
+for (int i = 1 ; i <= n ; i++) {
+  visited[i] = false;
+  g[i].clear() ;
+}
+g[i].clear() empty all the data from the node

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.4.26)  26 APR 2024 02:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.4.26)  26 APR 2024 03:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -30,16 +30,18 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen135
-) (content/tex/kactlpkg.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)) (content/tex/kactlpkg.sty
 Package: kactlpkg 
  (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count176
 \lst@gtempboxa=\box45
 \lst@token=\toks17
@@ -455,22 +457,26 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 ) (build//kactl.aux)
 \openout1 = `kactl.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
 \c@lstlisting=\count293
 
 *geometry* driver: auto-detecting
@@ -527,7 +533,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box101
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -537,9 +543,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count300
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
  (build//kactl.out) (build//kactl.out)
 \@outlinefile=\write3
 \openout3 = `kactl.out'.
@@ -549,7 +555,7 @@ runsystem(rm -f build/header.tmp)...executed.
 <kth.pdf, id=44, 845.1575pt x 597.23125pt>
 File: kth.pdf Graphic file (type pdf)
 <use kth.pdf>
-Package pdftex.def Info: kth.pdf  used on input line 12.
+Package pdftex.def Info: kth.pdf  used on input line 14.
 (pdftex.def)             Requested size: 85.35826pt x 60.31895pt.
  [0
 
@@ -590,11 +596,13 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 6.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 6.
+LaTeX Font Info:    Trying to load font information for OML+phv on input line 6.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlphv.fd
+File: omlphv.fd 
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+LaTeX Font Info:    Font shape `OML/phv/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
 )
 runsystem(rm -f build/kactl.tmp)...executed.
@@ -615,7 +623,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/contest/troubleshoot.t
 
 ])) (./content/math/chapter.tex
 Chapter 2.
-<content/math/sphericalCoordinates.pdf, id=153, 42.67899pt x 42.67899pt>
+<content/math/sphericalCoordinates.pdf, id=151, 42.67899pt x 42.67899pt>
 File: content/math/sphericalCoordinates.pdf Graphic file (type pdf)
 <use content/math/sphericalCoordinates.pdf>
 Package pdftex.def Info: content/math/sphericalCoordinates.pdf  used on input line 67.
@@ -623,8 +631,8 @@ Package pdftex.def Info: content/math/sphericalCoordinates.pdf  used on input li
 runsystem(python3 content/tex/preprocessor.py --print-header "|troubleshoot.txt" -o build/header2.tmp)...executed.
 
 (./build/header2.tmp) [2]
-Overfull \hbox (32.1995pt too wide) in paragraph at lines 75--75
-[]\OT1/cmr/bx/n/20.74 Derivatives/Integrals  
+Overfull \hbox (16.49791pt too wide) in paragraph at lines 75--75
+[]\OT1/phv/b/n/20.74 Derivatives/Integrals  
  []
 
 
@@ -649,7 +657,10 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 93--93
 
 runsystem(python3 content/tex/preprocessor.py --print-header "|troubleshoot.txt" -o build/header2.tmp)...executed.
 
-(./build/header2.tmp) [3 <./content/math/sphericalCoordinates.pdf>]) (./content/data-structures/chapter.tex
+(./build/header2.tmp) [3 <./content/math/sphericalCoordinates.pdf>]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 154.
+) (./content/data-structures/chapter.tex
 Chapter 3.
 runsystem(rm -f build/kactl.tmp)...executed.
 
@@ -680,7 +691,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/data-structures/UnionF
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 int t = uf.time(); ...;
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 int t = uf.time(); ...;
  []
 
 )
@@ -752,7 +763,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/numerical/PolyRoots.h"
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 polyRoots(\OMS/cmsy/m/n/10 ff\OT1/pcr/m/n/10 2,-3,1\OMS/cmsy/m/n/10 gg\OT1/pcr/m/n/10 ,-1e9,1e9) //
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 polyRoots(\OMS/cmsy/m/n/10 ff\OT1/pcr/m/n/10 2,-3,1\OMS/cmsy/m/n/10 gg\OT1/pcr/m/n/10 ,-1e9,1e9) //
  []
 
 )
@@ -769,8 +780,8 @@ runsystem(python3 content/tex/preprocessor.py -i "content/numerical/BerlekampMas
 runsystem(python3 content/tex/preprocessor.py --print-header "PolyInterpolate.h|BerlekampMassey.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [8]
-Underfull \hbox (badness 7238) in paragraph at lines 11--11
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 berlekampMassey(\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 0, 1, 1, 3, 5, 11\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 )
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 berlekampMassey(\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 0, 1, 1, 3, 5, 11\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 )
  []
 
 )
@@ -780,7 +791,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/numerical/LinearRecurr
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 linearRec(\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 0, 1\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 , \OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 1, 1\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 , k) // k'th
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 linearRec(\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 0, 1\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 , \OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 1, 1\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 , k) // k'th
  []
 
 )
@@ -790,7 +801,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/numerical/GoldenSectio
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 double func(double x) \OMS/cmsy/m/n/10 f \OT1/pcr/m/n/10 return
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 double func(double x) \OMS/cmsy/m/n/10 f \OT1/pcr/m/n/10 return
  []
 
 )
@@ -804,18 +815,19 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/numerical/Integrate.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
+runsystem(python3 content/tex/preprocessor.py --print-header "Integrate.h|Integrate.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [9]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/numerical/IntegrateAdaptive.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 double sphereVolume = quad(-1, 1,
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 double sphereVolume = quad(-1, 1,
  []
 
-runsystem(python3 content/tex/preprocessor.py --print-header "Integrate.h|IntegrateAdaptive.h" -o build/header2.tmp)...executed.
-
-(./build/header2.tmp) [9])
+)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/numerical/Simplex.h" -o build/kactl.tmp )...executed.
@@ -938,7 +950,14 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/number-theory/ModSqrt.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 12.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <10> not available
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 12.
+)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/number-theory/FastEratosthenes.h" -o build/kactl.tmp )...executed.
@@ -954,11 +973,11 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/number-theory/Factor.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+LaTeX Font Info:    Trying to load font information for OMS+phv on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
 )
 runsystem(rm -f build/kactl.tmp)...executed.
@@ -988,18 +1007,13 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/number-theory/FracBinarySearch.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 fracBS([](Frac f) \OMS/cmsy/m/n/10 f \OT1/pcr/m/n/10 return
- []
-
-)
+ (./build/kactl.tmp)
 runsystem(python3 content/tex/preprocessor.py --print-header "FracBinarySearch.h|FracBinarySearch.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [16]) (./content/combinatorial/chapter.tex
 Chapter 6.
 (./content/combinatorial/factorial.tex
-Overfull \hbox (25.76057pt too wide) in paragraph at lines 2--19
+Overfull \hbox (43.978pt too wide) in paragraph at lines 2--19
  [] 
  []
 
@@ -1021,7 +1035,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/combinatorial/multinomial.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
-Overfull \hbox (24.09636pt too wide) detected at line 64
+Overfull \hbox (23.51561pt too wide) detected at line 64
 []
  []
 
@@ -1050,7 +1064,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/lineDistance.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/lineDistance.pdf, id=1607, 42.67899pt x 42.67899pt>
+<content/geometry/lineDistance.pdf, id=1604, 42.67899pt x 42.67899pt>
 File: content/geometry/lineDistance.pdf Graphic file (type pdf)
 <use content/geometry/lineDistance.pdf>
 Package pdftex.def Info: content/geometry/lineDistance.pdf  used on input line 11.
@@ -1061,7 +1075,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/SegmentDistance.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/SegmentDistance.pdf, id=1608, 42.67899pt x 42.67899pt>
+<content/geometry/SegmentDistance.pdf, id=1605, 42.67899pt x 42.67899pt>
 File: content/geometry/SegmentDistance.pdf Graphic file (type pdf)
 <use content/geometry/SegmentDistance.pdf>
 Package pdftex.def Info: content/geometry/SegmentDistance.pdf  used on input line 14.
@@ -1072,14 +1086,14 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/SegmentIntersection.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/SegmentIntersection.pdf, id=1609, 42.67899pt x 42.67899pt>
+<content/geometry/SegmentIntersection.pdf, id=1606, 42.67899pt x 42.67899pt>
 File: content/geometry/SegmentIntersection.pdf Graphic file (type pdf)
 <use content/geometry/SegmentIntersection.pdf>
 Package pdftex.def Info: content/geometry/SegmentIntersection.pdf  used on input line 17.
 (pdftex.def)             Requested size: 42.67912pt x 42.68211pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 P$\OML/cmm/m/it/10 >$ \OT1/pcr/m/n/10 inter =
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 P$\OML/cmm/m/it/10 >$ \OT1/pcr/m/n/10 inter =
  []
 
 
@@ -1088,19 +1102,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
  []
 
 )
+runsystem(python3 content/tex/preprocessor.py --print-header "SegmentIntersection.h|SegmentIntersection.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [19 <./content/geometry/lineDistance.pdf> <./content/geometry/SegmentDistance.pdf> <./content/geometry/SegmentIntersection.pdf>]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/lineIntersection.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/lineIntersection.pdf, id=1610, 42.67899pt x 42.67899pt>
+<content/geometry/lineIntersection.pdf, id=1761, 42.67899pt x 42.67899pt>
 File: content/geometry/lineIntersection.pdf Graphic file (type pdf)
 <use content/geometry/lineIntersection.pdf>
 Package pdftex.def Info: content/geometry/lineIntersection.pdf  used on input line 17.
 (pdftex.def)             Requested size: 42.67912pt x 42.68211pt.
-runsystem(python3 content/tex/preprocessor.py --print-header "SegmentIntersection.h|lineIntersection.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [19 <./content/geometry/lineDistance.pdf> <./content/geometry/SegmentDistance.pdf> <./content/geometry/SegmentIntersection.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 \OT1/pcr/m/n/10 cout $\OML/cmm/m/it/10 <$$<$ \OT1/pcr/m/n/10 "intersection point at " $\OML/cmm/m/it/10 <$$<$
  []
@@ -1121,7 +1136,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/linearTransformation.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/linearTransformation.pdf, id=1769, 42.67899pt x 42.67899pt>
+<content/geometry/linearTransformation.pdf, id=1762, 42.67899pt x 42.67899pt>
 File: content/geometry/linearTransformation.pdf Graphic file (type pdf)
 <use content/geometry/linearTransformation.pdf>
 Package pdftex.def Info: content/geometry/linearTransformation.pdf  used on input line 13.
@@ -1146,10 +1161,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \OT1/pcr/m/n/10 number of positively oriented triangles with
  []
 
-)
 runsystem(python3 content/tex/preprocessor.py --print-header "|Angle.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [20 <./content/geometry/lineIntersection.pdf> <./content/geometry/linearTransformation.pdf>]
+(./build/header2.tmp) [20 <./content/geometry/lineIntersection.pdf> <./content/geometry/linearTransformation.pdf>])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/CircleIntersection.h" -o build/kactl.tmp )...executed.
@@ -1170,7 +1184,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/circumcircle.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/circumcircle.pdf, id=1905, 42.67899pt x 42.67899pt>
+<content/geometry/circumcircle.pdf, id=1897, 42.67899pt x 42.67899pt>
 File: content/geometry/circumcircle.pdf Graphic file (type pdf)
 <use content/geometry/circumcircle.pdf>
 Package pdftex.def Info: content/geometry/circumcircle.pdf  used on input line 12.
@@ -1180,17 +1194,17 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/MinimumEnclosingCircle.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
 runsystem(python3 content/tex/preprocessor.py --print-header "MinimumEnclosingCircle.h|MinimumEnclosingCircle.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [21 <./content/geometry/circumcircle.pdf>]
+ (./build/header2.tmp) [21 <./content/geometry/circumcircle.pdf>])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/InsidePolygon.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 P$\OML/cmm/m/it/10 >$ \OT1/pcr/m/n/10 v = \OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 P\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 4,4\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 , P\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 1,2\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 ,
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 P$\OML/cmm/m/it/10 >$ \OT1/pcr/m/n/10 v = \OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 P\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 4,4\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 , P\OMS/cmsy/m/n/10 f\OT1/pcr/m/n/10 1,2\OMS/cmsy/m/n/10 g\OT1/pcr/m/n/10 ,
  []
 
 )
@@ -1209,7 +1223,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/PolygonCut.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/PolygonCut.pdf, id=2021, 42.67899pt x 42.67899pt>
+<content/geometry/PolygonCut.pdf, id=2005, 42.67899pt x 42.67899pt>
 File: content/geometry/PolygonCut.pdf Graphic file (type pdf)
 <use content/geometry/PolygonCut.pdf>
 Package pdftex.def Info: content/geometry/PolygonCut.pdf  used on input line 15.
@@ -1220,7 +1234,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/ConvexHull.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/ConvexHull.pdf, id=2022, 42.67899pt x 42.67899pt>
+<content/geometry/ConvexHull.pdf, id=2006, 42.67899pt x 42.67899pt>
 File: content/geometry/ConvexHull.pdf Graphic file (type pdf)
 <use content/geometry/ConvexHull.pdf>
 Package pdftex.def Info: content/geometry/ConvexHull.pdf  used on input line 14.
@@ -1230,15 +1244,15 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/HullDiameter.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "HullDiameter.h|HullDiameter.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [22 <./content/geometry/PolygonCut.pdf> <./content/geometry/ConvexHull.pdf>])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/PointInsideHull.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "PointInsideHull.h|PointInsideHull.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [22 <./content/geometry/PolygonCut.pdf> <./content/geometry/ConvexHull.pdf>])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/LineHullIntersection.h" -o build/kactl.tmp )...executed.
@@ -1303,19 +1317,20 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/Manacher.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "Manacher.h|Manacher.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [26])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/MinRotation.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 rotate(v.begin(),
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 rotate(v.begin(),
  []
 
-runsystem(python3 content/tex/preprocessor.py --print-header "Manacher.h|MinRotation.h" -o build/header2.tmp)...executed.
-
-(./build/header2.tmp) [26])
+)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/SuffixArray.h" -o build/kactl.tmp )...executed.
@@ -1325,15 +1340,15 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/SuffixTree.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "|SuffixTree.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [27])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/Hashing.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "|Hashing.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [27])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/AhoCorasick.h" -o build/kactl.tmp )...executed.
@@ -1359,7 +1374,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/various/ConstantInterv
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 constantIntervals(0, sz(v), [&](int
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 constantIntervals(0, sz(v), [&](int
  []
 
 
@@ -1373,14 +1388,14 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/various/TernarySearch.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "ConstantIntervals.h|TernarySearch.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [29]
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 int ind = ternSearch(0,n-1,[&](int
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 int ind = ternSearch(0,n-1,[&](int
  []
 
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "TernarySearch.h|TernarySearch.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [29]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/various/LIS.h" -o build/kactl.tmp )...executed.
@@ -1405,7 +1420,9 @@ Overfull \hbox (44.6432pt too wide) in paragraph at lines 19--22
 [][]\OT1/pcr/m/n/12 signal(SIGSEGV, [](int) { _Exit(0); }); 
  []
 
+runsystem(python3 content/tex/preprocessor.py --print-header "DivideAndConquerDP.h|DivideAndConquerDP.h" -o build/header2.tmp)...executed.
 
+(./build/header2.tmp) [30]
 Overfull \hbox (37.4432pt too wide) in paragraph at lines 30--31
 [][]\OT1/pcr/m/n/12 for (int x = m; x; ) { --x &= m; ... } 
  []
@@ -1415,9 +1432,7 @@ Overfull \hbox (44.6432pt too wide) in paragraph at lines 31--32
 [][]\OT1/pcr/m/n/12 c = x&-x, r = x+c; (((r^x) >> 2)/c) | r 
  []
 
-runsystem(python3 content/tex/preprocessor.py --print-header "|DivideAndConquerDP.h" -o build/header2.tmp)...executed.
 
-(./build/header2.tmp) [30]
 Overfull \hbox (51.8432pt too wide) in paragraph at lines 32--33
 [][]  []\OT1/pcr/m/n/12 if (i & 1 << b) D[i] += D[i^(1 << b)]; 
  []
@@ -1448,7 +1463,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/various/BumpAllocatorS
 
  (./build/kactl.tmp
 Underfull \hbox (badness 10000) in paragraph at lines 5--5
-\OT1/cmr/bx/n/10 Usage: \OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 int, small$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 int$\OML/cmm/m/it/10 >$$>$$>$
+\OT1/phv/b/n/10 Usage: \OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 vector$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 int, small$\OML/cmm/m/it/10 <$\OT1/pcr/m/n/10 int$\OML/cmm/m/it/10 >$$>$$>$
  []
 
 )
@@ -1457,20 +1472,21 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/various/SIMD.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-Overfull \hbox (42.04643pt too wide) in paragraph at lines 9--9
-\OT1/pcr/m/n/10 "[]mm(256)?[]name[](si(128|256)|epi(8|16|32|64)|pd|ps)"\OT1/cmr/m/n/10 .
+Overfull \hbox (42.04854pt too wide) in paragraph at lines 9--9
+\OT1/pcr/m/n/10 "[]mm(256)?[]name[](si(128|256)|epi(8|16|32|64)|pd|ps)"\OT1/phv/m/n/10 .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\OT1/cmr/m/n/10 Not all are de-scribed here; grep for []\OT1/pcr/m/n/10 mm[] \OT1/cmr/m/n/10 in
+\OT1/phv/m/n/10 Not all are de-scribed here; grep for []\OT1/pcr/m/n/10 mm[] \OT1/phv/m/n/10 in
  []
 
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
-runsystem(python3 content/tex/preprocessor.py --print-header "SIMD.h|SIMD.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "BumpAllocatorSTL.h|SIMD.h" -o build/header2.tmp)...executed.
 
-(./build/header2.tmp) [31])) (./content/own-data/chapter.tex
+(./build/header2.tmp) [31]
+LaTeX Font Info:    Font shape `OMS/phv/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+)) (./content/own-data/chapter.tex
 Chapter 10.
 runsystem(rm -f build/kactl.tmp)...executed.
 
@@ -1483,7 +1499,10 @@ runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o 
 runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [33]
-Overfull \hbox (102.47217pt too wide) in paragraph at lines 265--266
+runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [34]
+Overfull \hbox (102.47217pt too wide) in paragraph at lines 306--307
 [][][] 
  []
 
@@ -1492,10 +1511,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/own-data/decimaltoallstl.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "decimaltoallstl.h|decimaltoallstl.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [34])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/own-data/ratul.h" -o build/kactl.tmp )...executed.
@@ -1520,7 +1536,10 @@ runsystem(python3 content/tex/preprocessor.py --print-header "|pranto.h" -o buil
  (./build/header2.tmp) [38]))
 runsystem(python3 content/tex/preprocessor.py --print-header "|pranto.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [39] (./content/appendix/chapter.texpdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
+ (./build/header2.tmp) [39]
+runsystem(python3 content/tex/preprocessor.py --print-header "|pranto.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [40] (./content/appendix/chapter.texpdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \chapter{Techniques}
@@ -1593,10 +1612,10 @@ l.17 	Breadth
               first search
 runsystem(python3 content/tex/preprocessor.py --print-header "|techniques.txt" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [40]))
+ (./build/header2.tmp) [41]))
 runsystem(python3 content/tex/preprocessor.py --print-header "|techniques.txt" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [41]
+ (./build/header2.tmp) [42]
 \tf@ptc=\write5
 \openout5 = `kactl.ptc'.
 
@@ -1606,27 +1625,27 @@ runsystem(rm -f build/header2.tmp)...executed.
 
 runsystem(rm -f build/kactl.tmp)...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
  (build//kactl.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `kactl.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17574 strings out of 483183
- 254425 string characters out of 5966292
- 1056505 words of memory out of 5000000
- 28632 multiletter control sequences out of 15000+600000
- 550736 words of font info for 94 fonts, out of 8000000 for 9000
+ 17828 strings out of 483183
+ 257821 string characters out of 5966292
+ 1063806 words of memory out of 5000000
+ 28812 multiletter control sequences out of 15000+600000
+ 577458 words of font info for 119 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,16n,64p,857b,2193s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/codespace/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/codespace/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/codespace/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1000.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on build//kactl.pdf (42 pages, 2315832 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on build//kactl.pdf (43 pages, 2246850 bytes).
 PDF statistics:
- 4814 PDF objects out of 5155 (max. 8388607)
- 4531 compressed objects within 46 object streams
- 3359 named destinations out of 3580 (max. 500000)
+ 4856 PDF objects out of 5155 (max. 8388607)
+ 4576 compressed objects within 46 object streams
+ 3407 named destinations out of 3580 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
