@@ -1,12 +1,3 @@
-/**
- * Author: Md. Arik Rayhan
- * Date: 2023-11-01
- * License: CC0
- * Description: OR/AND/XOR are associative and commutative.
- * Time: O(n)
- * Status: Tested on codeforces
- */
-
 //	A ^ 0 = A
 //	A ^ A = 0
 //	If A ^ B =C, then A ^ C =B
